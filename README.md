@@ -5,7 +5,6 @@ In order to use these examples:
 - Have a project folder created for the language the examples are written in.
 
 # Project Folder Setup
-Examples for using MATRIX CORE drivers
 We currently provide libraries and examples for the following languages:
 
 * [Javascript](https://matrix-io.github.io/matrix-documentation/matrix-core/getting-started/javascript-installation/)
