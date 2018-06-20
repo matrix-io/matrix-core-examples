@@ -36,6 +36,7 @@ def config_socket():
 
     # Send driver configuration through ZMQ socket
     socket.send(io_config_proto.SerializeToString())
+    print ('Listening for wakewords')
 
 ## ERROR PORT ##
 def wakeword_error_callback(error):
