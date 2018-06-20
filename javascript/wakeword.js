@@ -3,8 +3,8 @@ var zmq = require('zeromq');// Asynchronous Messaging Framework
 var matrix_io = require('matrix-protos').matrix_io;// MATRIX Protocol Buffers
 var matrix_ip = '127.0.0.1';// Local Device IP
 var matrix_wakeword_base_port = 60001; // Wakeword base port
-const LM_PATH = 'PATH_TO_YOUR_FILE.lm';// Language Model File
-const DIC_PATH = 'PATH_TO_YOUR_FILE.dic';// Dictation File
+const LM_PATH = 'INSERT_PATH_TO_YOUR_FILE.lm';// Language Model File
+const DIC_PATH = 'INSERT_PATH_TO_YOUR_FILE.dic';// Dictation File
 
 // BASE PORT \\
 // Create a Pusher socket
