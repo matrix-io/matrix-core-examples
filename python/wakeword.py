@@ -12,8 +12,8 @@ wakeword_port = 60001 # Driver Base port
 # Handy functions for connecting to the Data Update, & Error port 
 from utils import register_data_callback, register_error_callback
 # Sphinx Knowledge Base files
-LM_PATH = '/home/pi/1339.lm'# Language Model File
-DIC_PATH = '/home/pi/1339.dic'# Dictation File
+LM_PATH = 'INSERT_PATH_TO_YOUR_FILE.lm'# Language Model File
+DIC_PATH = 'INSERT_PATH_TO_YOUR_FILE.dic'# Dictation File
 
 ## BASE PORT ##
 def config_socket():
