@@ -37,7 +37,7 @@ setInterval(function(){
   pingSocket.send('');// Send ping
 }, 2000);
 
-// ERROR PORT \\
+// ERROR PORT \\ (!Currently Experiencing False Errors!)
 // Create a Subscriber socket
 var errorSocket = zmq.socket('sub');
 // Connect Subscriber to Error port
